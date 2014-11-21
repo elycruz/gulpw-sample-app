@@ -11,5 +11,7 @@
     "gulp": "^3.8.10",
     "js-yaml": "^3.2.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "gulp-header": "^1.2.2"
+  }
 }
