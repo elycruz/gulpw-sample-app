@@ -10,7 +10,7 @@ tasks:
     header: |
       /*!
        * Company Name http://www.company-website.com
-       * <%= bundle.name %>.<%= fileExt %> <%= bundle.version %>
+       * <%= bundle.options.name %>.<%= fileExt %> <%= bundle.options.version %>
        * <%= fileHash %>
        */
     cssBuildPath: ./frontend-dev/pre-artifacts/css/
@@ -20,13 +20,14 @@ tasks:
 
   minify:
     header: |
-      /*! Company Name http://www.company-website.com <%= bundle.name %>.<%= fileExt %> <%= bundle.version %> <%= fileHash %> */
+      /*! Company Name http://www.company-website.com <%= bundle.options.name %>.<%= fileExt %> <%= bundle.options.version %> <%= fileHash %> */
     cssBuildPath: ./public/css/
     jsBuildPath: ./public/js/
     htmlBuildPath: ./public/
     cssPreSuffix: ".min"
     htmlPreSuffix: ".min"
     jsPreSuffix: ".min"
+    useFilePreSuffix: true
     useVersionNumInFileName: false
 
   # Build Task

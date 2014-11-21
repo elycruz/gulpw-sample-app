@@ -1,6 +1,6 @@
 /*!
  * Company Name http://www.company-website.com
- * .js 
+ * example-feature-2.js 0.0.0
  * {{hash goes here}}
  */
 /**

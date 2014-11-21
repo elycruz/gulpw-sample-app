@@ -3,11 +3,10 @@ version: "0.0.0" # Semver version string
 description: "Global bundle (should include all vendors)." # description goes here
 
 files:
-
   js:
     - ./frontend-dev/js/vendors/console-shim.js
     - ./frontend-dev/js/vendors/jquery-1.10.2.min.js
-    - ./frontend-dev/js/vendors/modernizr-2.6.2.min
+    - ./frontend-dev/js/vendors/modernizr-2.6.2.min.js
 
   css:
     - ./frontend-dev/css/global/normalize.css
