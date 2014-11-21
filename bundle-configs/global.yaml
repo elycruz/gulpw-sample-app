@@ -5,8 +5,8 @@ description: "Global bundle (should include all vendors)." # description goes he
 files:
   js:
     - ./frontend-dev/js/vendors/console-shim.js
-    - ./frontend-dev/js/vendors/jquery-1.10.2.min.js
-    - ./frontend-dev/js/vendors/modernizr-2.6.2.min.js
+    - ./frontend-dev/bower_components/jquery/dist/jquery.js
+    - ./frontend-dev/bower_compoents/modernizr/modernizr.js
 
   css:
     - ./frontend-dev/css/global/normalize.css
