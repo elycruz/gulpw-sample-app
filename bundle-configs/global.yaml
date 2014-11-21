@@ -1,7 +1,9 @@
 name: "global" # Dash or underscore separated bundle name
 version: "0.0.0" # Semver version string
 description: "Global bundle (should include all vendors)." # description goes here
-
+clean:
+  - js
+  - css
 files:
   js:
     - ./frontend-dev/js/vendors/console-shim.js

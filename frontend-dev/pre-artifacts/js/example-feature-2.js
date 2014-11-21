@@ -1,7 +1,7 @@
 /*!
  * Company Name http://www.company-website.com
  * example-feature-2.js 0.0.0
- * {{hash goes here}}
+ * {{file hash here}}
  */
 /**
  * Created by edelacruz on 11/19/2014.

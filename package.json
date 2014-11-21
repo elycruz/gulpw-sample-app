@@ -1,5 +1,5 @@
 {
-  "name": "example-gbw-project",
+  "name": "gulpw-sample-app",
   "version": "0.0.0",
   "main": "gulpfile.js",
   "scripts": {
@@ -8,6 +8,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "del": "^0.1.3",
     "gulp": "^3.8.10",
     "js-yaml": "^3.2.3"
   },
