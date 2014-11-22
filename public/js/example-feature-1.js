@@ -1,2 +1,0 @@
-/*! Company Name http://www.company-website.com example-feature-1.js 0.0.0 {{file hash here}} */
-$(function(){$("body").append("<h1>Hi, this is example-feature-1's script result.</h1>")}),$(function(){$("body").append('<h4>"example-feature-1/subcomponent1.js" just ran.</h4>')});
