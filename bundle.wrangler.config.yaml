@@ -36,7 +36,6 @@ tasks:
     # Tasks to run if task is not overwritten by flag (see flags below)
     tasks:
       - compass
-      - jslint
       - csslint
       - htmllint
       - browserify
@@ -100,7 +99,5 @@ tasks:
   compass: {}
 
   csslint: {}
-
-  jslint: {}
 
   htmllint: {}
