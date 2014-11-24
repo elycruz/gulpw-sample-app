@@ -1,6 +1,7 @@
 name: "example-page-1" # Dash or underscore separated bundle name
 version: "0.0.0" # Semver version string
 description: "Example page bundle." # description goes here
+
 files:
   js:
     - ./frontend-dev/pre-artifacts/js/example-feature-1.js

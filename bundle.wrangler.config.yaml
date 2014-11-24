@@ -89,15 +89,3 @@ tasks:
 
       # This flag specifies that minification should not occur
       dev: false
-
-  # RequireJs Defaults
-  requirejs: {}
-
-  # Browserify Defaults
-  browserify: {}
-
-  compass: {}
-
-  csslint: {}
-
-  htmllint: {}
