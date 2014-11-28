@@ -13,10 +13,9 @@ tasks:
        * <%= bundle.options.name %>.<%= fileExt %> <%= bundle.options.version %>
        * <%= fileHash %>
        */
-    cssBuildPath: ./frontend-dev/pre-artifacts/css/
-    jsBuildPath: ./frontend-dev/pre-artifacts/js/
-    htmlBuildPath: ./frontend-dev/pre-artifacts/
-    useVersionNumInFileName: false
+    cssBuildPath: ./public/css/
+    jsBuildPath: ./public/js/
+    htmlBuildPath: ./public/
 
   minify:
     header: |
@@ -24,68 +23,53 @@ tasks:
     cssBuildPath: ./public/css/
     jsBuildPath: ./public/js/
     htmlBuildPath: ./public/
-    cssPreSuffix: ".min"
-    htmlPreSuffix: ".min"
-    jsPreSuffix: ".min"
-    useFilePreSuffix: true
-    useVersionNumInFileName: false
 
   # Build Task
   build:
 
-    # Tasks to run if task is not overwritten by flag (see flags below)
-    tasks:
-      - compass
-      - csslint
-      - htmllint
-      - browserify
-      - requirejs
-      - concat
-      - minify
-
     # This is a global lint flag that is used if there is a lint task specified for a section
     lintBeforeBuild: true
-
-    # Concatenate files if files exists
-    concat: true
-
-    # Minify files if files exists and no `--dev` flag has been specefied on run
-    minify: true
-
-    # Runs require js section if exists
-    requirejs: true
-
-    # Runs browserify section if exists
-    browserify: true
 
   # Deploy Task
   deploy:
 
-    # Files to be deployed
+    # Files to be deployed (merged with bundle level definition;  e.g., bundleFile.deploy.files)
     files: []
 
     # Global deploy artifacts flag (used if no `deployArtifact` field is found for a section in this config
     deployArtifacts: true
 
-    # Whether or not to deploy artifact files that aren't minified or that do not have the ".min" pre-suffix
-    deployPreArifacts: false
-
-    # Flag which determines whether or not to automatically deploy file arrays
-    deployFiles: false
-
     # Should files be linted before deploy
     lintBeforeDeploy: false
 
-  # Watch Task Defaults
-  watch:
+    allowedImageTypes: /\.(?:jpg|png|gif|tiff)$/i
 
-    # Tasks to run on file changes ** Note ** only tasks that match changed file types will be run
-    tasks:
-      - build
-#      - deploy
+    allowedVideoTypes: /\.(?:flv|mpeg|mpg|mp3|mp4|ogg|vorbis)$/i
 
-    # Flags that can be passed to the watch task ** Note ** These flags are available to tasks as they run via the `gulp` object
-    flags:
+#    allowedFontTypes: /\.(?:flv|mpeg|mpg|mp3|mp4|ogg|vorbis)$/i
 
-      # This flag specifies that minification should not occur
-      dev: false
+    hosts:
+
+      # Hostname to develop for
+      gulpw.elycruz.com:
+
+        # Servers where user can develop for host key (in this case host key is `gulpw.elycruz.com`)
+        servers: # slots
+          - devslot1.gulpw-sample.somedomain.com
+          - devslot2.gulpw-sample.somedomain.com
+          - devslot3.gulpw-sample.somedomain.com
+
+        # all sites represent the same website just different instances of the website
+        sites: # instances
+          - web1
+          - web2
+          - web3
+
+        # directories for deploying file types to the website instance chosen
+        paths: # dir
+          font: public/media/fonts/
+          html: public/media/html/
+          video: public/media/videos/
+          image: public/media/images/
+          javascript: public/js/
+          stylesheet: public/css/
