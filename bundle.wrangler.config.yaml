@@ -37,7 +37,7 @@ tasks:
     files: []
 
     # Global deploy artifacts flag (used if no `deployArtifact` field is found for a section in this config
-    deployArtifacts: true
+    deployArtifacts:   true
 
     # Should files be linted before deploy
     lintBeforeDeploy: false
@@ -55,9 +55,9 @@ tasks:
 
         # Servers where user can develop for host key (in this case host key is `gulpw.elycruz.com`)
         servers: # slots
-          - devslot1.gulpw-sample.somedomain.com
-          - devslot2.gulpw-sample.somedomain.com
-          - devslot3.gulpw-sample.somedomain.com
+          - devslot1.gulpw-sample.elycruz.com
+          - devslot2.gulpw-sample.elycruz.com
+          - devslot3.gulpw-sample.elycruz.com
 
         # all sites represent the same website just different instances of the website
         sites: # instances
