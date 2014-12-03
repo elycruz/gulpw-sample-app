@@ -11,3 +11,8 @@ files:
   css:
     - ./frontend-dev/css/global/normalize.css
     - ./frontend-dev/css/global/main.css
+
+deploy:
+  otherFiles:
+    md:
+      - ./frontend-dev/readme.md
