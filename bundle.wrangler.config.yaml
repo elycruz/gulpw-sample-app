@@ -55,15 +55,17 @@ tasks:
 
         # all sites represent the same website just different instances of the website
         devHostnamePrefixes: # instances
-          - web1
-          - web2
-          - web3
+          - web1-
+          - web2-
+          - web3-
+
+        deployRootFolder: sites/web1-devslot1.gulpw-sample.elycruz.com/
 
         # directories for deploying file types to the website instance chosen
         typesAndDeployPathsMap: # dir
           font: public/media/fonts/
-          html: public/media/html/
           video: public/media/videos/
           image: public/media/images/
           js: public/js/
           css: public/css/
+          md: public/
