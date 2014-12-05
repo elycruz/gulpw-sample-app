@@ -11,3 +11,6 @@ files:
     - ./frontend-dev/css/example-feature-1/cssfile1.css
     - ./frontend-dev/css/example-feature-1/cssfile2.css
     - ./frontend-dev/css/example-feature-1/cssfile3.css
+  mustache:
+    - ./frontend-dev/templates/mustache/example-feature-1/some-template.mustache
+    - ./frontend-dev/templates/mustache/example-feature-1/some-template2.mustache

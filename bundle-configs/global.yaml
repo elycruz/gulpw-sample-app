@@ -4,6 +4,7 @@ description: "Global bundle (should include all vendors)." # description goes he
 
 files:
   js:
+    - ./frontend-dev/js/src/global/index.js
     - ./frontend-dev/js/vendors/console-shim.js
     - ./frontend-dev/bower_components/jquery/dist/jquery.js
     - ./frontend-dev/bower_compoents/modernizr/modernizr.js

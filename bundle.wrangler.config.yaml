@@ -23,6 +23,14 @@ tasks:
     cssBuildPath: ./public/css/
     jsBuildPath: ./public/js/
     htmlBuildPath: ./public/
+    template:
+      templatesParentVar: App
+      templatesKey: templates
+      removeWhitespace: true
+      templateTypeKeys:
+        - mustache
+        - handlebars
+        - ejs
 
   # Build Task
   build:
