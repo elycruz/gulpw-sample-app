@@ -32,6 +32,13 @@ tasks:
         - handlebars
         - ejs
 
+  jshint:
+    ignoredFiles:
+      - jquery.js
+      - require.js
+      - require-text.js
+      - modernizr.js
+
   # Build Task
   build:
 
