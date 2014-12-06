@@ -30,6 +30,7 @@
     "requirejs": "~2.1.15",
     "requirejs-text": "~2.0.12",
     "amplify": "~1.1.2",
-    "sjljs": "elycruz/sjljs#~0.3.8"
+    "sjljs": "elycruz/sjljs#~0.3.8",
+    "knockoutjs": "~3.2.0"
   }
 }

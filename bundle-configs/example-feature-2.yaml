@@ -4,11 +4,11 @@ description: "Example feature 2 bundle." # description goes here
 
 files:
   js:
-    - ./frontend-dev/js/src/example-feature-2/index.js
+    - ./fe-dev/js/src/example-feature-2/index.js
   css:
-    - ./frontend-dev/css/example-feature-2/component1.css
-    - ./frontend-dev/css/example-feature-2/component2.css
-    - ./frontend-dev/css/example-feature-2/component3.css
+    - ./fe-dev/css/example-feature-2/component1.css
+    - ./fe-dev/css/example-feature-2/component2.css
+    - ./fe-dev/css/example-feature-2/component3.css
   mustache:
-    - ./frontend-dev/templates/mustache/example-feature-2/some-template2.0.mustache
-    - ./frontend-dev/templates/mustache/example-feature-2/some-template2.2.mustache
+    - ./fe-dev/templates/mustache/example-feature-2/some-template2.0.mustache
+    - ./fe-dev/templates/mustache/example-feature-2/some-template2.2.mustache

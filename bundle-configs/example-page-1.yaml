@@ -4,23 +4,23 @@ description: "Example page bundle." # description goes here
 
 files:
   js:
-    - ./frontend-dev/js/src/example-feature-1/index.js
-    - ./frontend-dev/js/src/example-feature-1/subcomponent1.js
-    - ./frontend-dev/js/src/example-feature-1/sub-component2.js
-    - ./frontend-dev/js/src/example-feature-2/index.js
+    - ./fe-dev/js/src/example-feature-1/index.js
+    - ./fe-dev/js/src/example-feature-1/subcomponent1.js
+    - ./fe-dev/js/src/example-feature-1/sub-component2.js
+    - ./fe-dev/js/src/example-feature-2/index.js
   css:
-    - ./frontend-dev/css/example-feature-1/cssfile1.css
-    - ./frontend-dev/css/example-feature-1/cssfile2.css
-    - ./frontend-dev/css/example-feature-1/cssfile3.css
-    - ./frontend-dev/css/example-feature-2/component1.css
-    - ./frontend-dev/css/example-feature-2/component2.css
-    - ./frontend-dev/css/example-feature-2/component3.css
+    - ./fe-dev/css/example-feature-1/cssfile1.css
+    - ./fe-dev/css/example-feature-1/cssfile2.css
+    - ./fe-dev/css/example-feature-1/cssfile3.css
+    - ./fe-dev/css/example-feature-2/component1.css
+    - ./fe-dev/css/example-feature-2/component2.css
+    - ./fe-dev/css/example-feature-2/component3.css
   html:
-    - ./frontend-dev/html-fragments/doc-top.html
-    - ./frontend-dev/html-fragments/head-meta.html
-    - ./frontend-dev/html-fragments/head-links.html
-    - ./frontend-dev/html-fragments/head-scripts.html
-    - ./frontend-dev/html-fragments/example-page-1/head-links.html
-    - ./frontend-dev/html-fragments/doc-middle.html
-    - ./frontend-dev/html-fragments/example-page-1/index.html
-    - ./frontend-dev/html-fragments/doc-bottom.html
+    - ./fe-dev/html-fragments/doc-top.html
+    - ./fe-dev/html-fragments/head-meta.html
+    - ./fe-dev/html-fragments/head-links.html
+    - ./fe-dev/html-fragments/head-scripts.html
+    - ./fe-dev/html-fragments/example-page-1/head-links.html
+    - ./fe-dev/html-fragments/doc-middle.html
+    - ./fe-dev/html-fragments/example-page-1/index.html
+    - ./fe-dev/html-fragments/doc-bottom.html

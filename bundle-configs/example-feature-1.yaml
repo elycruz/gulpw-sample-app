@@ -4,13 +4,13 @@ description: "Example feature 1 bundle." # description goes here
 
 files:
   js:
-    - ./frontend-dev/js/src/example-feature-1/index.js
-    - ./frontend-dev/js/src/example-feature-1/subcomponent1.js
-    - ./frontend-dev/js/src/example-feature-1/sub-component2.js
+    - ./fe-dev/js/src/example-feature-1/index.js
+    - ./fe-dev/js/src/example-feature-1/subcomponent1.js
+    - ./fe-dev/js/src/example-feature-1/sub-component2.js
   css:
-    - ./frontend-dev/css/example-feature-1/cssfile1.css
-    - ./frontend-dev/css/example-feature-1/cssfile2.css
-    - ./frontend-dev/css/example-feature-1/cssfile3.css
+    - ./fe-dev/css/example-feature-1/cssfile1.css
+    - ./fe-dev/css/example-feature-1/cssfile2.css
+    - ./fe-dev/css/example-feature-1/cssfile3.css
   mustache:
-    - ./frontend-dev/templates/mustache/example-feature-1/some-template.mustache
-    - ./frontend-dev/templates/mustache/example-feature-1/some-template2.mustache
+    - ./fe-dev/templates/mustache/example-feature-1/some-template.mustache
+    - ./fe-dev/templates/mustache/example-feature-1/some-template2.mustache

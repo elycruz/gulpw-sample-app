@@ -4,14 +4,14 @@ description: "Global bundle (should include all vendors)." # description goes he
 
 files:
   js:
-    - ./frontend-dev/js/src/global/index.js
-    - ./frontend-dev/js/vendors/console-shim.js
-    - ./frontend-dev/bower_components/jquery/dist/jquery.js
-    - ./frontend-dev/bower_compoents/modernizr/modernizr.js
+    - ./fe-dev/js/src/global/index.js
+    - ./fe-dev/js/src/global/console-shim.js
+    - ./fe-dev/bower_components/jquery/dist/jquery.js
+    - ./fe-dev/bower_compoents/modernizr/modernizr.js
 
   css:
-    - ./frontend-dev/css/global/normalize.css
-    - ./frontend-dev/css/global/main.css
+    - ./fe-dev/css/global/normalize.css
+    - ./fe-dev/css/global/main.css
 
 deploy:
   otherFiles:
@@ -19,4 +19,4 @@ deploy:
       - ./public/index.html
       - ./public/example-page-1.html
     md:
-      - ./frontend-dev/README.md
+      - ./fe-dev/README.md
