@@ -1,0 +1,10 @@
+
+init.js
+----------------
+init.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/modernizr/modernizr.js
+
+modules/application/application.js
+----------------
+modules/application/application.js

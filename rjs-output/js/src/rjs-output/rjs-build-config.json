@@ -1,6 +1,6 @@
 {
   "appDir": "./",
-  "baseUrl": "./js/src/amd-require-js",
+  "baseUrl": "./js/src/amd",
   "dir": "./js/src/rjs-output",
   "deps": ["modernizr", "jquery"],
   "modules": [

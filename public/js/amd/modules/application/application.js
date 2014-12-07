@@ -1,0 +1,1 @@
+define("modules/application/application",["jquery"],function(e){console.log("Application launched")});
