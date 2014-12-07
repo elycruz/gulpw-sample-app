@@ -3,5 +3,4 @@
  */
 define(['jquery'], function ($) {
     console.log('Module 1 launched', $);
-    console.log('What da deeeeeaally yoooo!');
 });

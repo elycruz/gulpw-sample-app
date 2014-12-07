@@ -81,6 +81,7 @@ tasks:
           font: public/media/fonts/
           video: public/media/videos/
           image: public/media/images/
+          html: public/
           js: public/js/
           css: public/css/
           md: public/
