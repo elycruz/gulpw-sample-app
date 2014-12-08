@@ -1,10 +1,15 @@
 
 init.js
 ----------------
-init.js
-D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
 D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/modernizr/modernizr.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/amplify/lib/amplify.core.js
+modules/application/Application.js
+main.js
 
-modules/application/application.js
+main.js
 ----------------
-modules/application/application.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
+D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/amplify/lib/amplify.core.js
+modules/application/Application.js
+main.js

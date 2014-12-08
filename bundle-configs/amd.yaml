@@ -6,7 +6,7 @@ files:
 #  js:
 #    - ./fe-dev/bower_components/requirejs/require.js
 #    - ./public/js/amd/init.js
-#    - ./public/js/amd/modules/application/application.js
+#    - ./public/js/amd/modules/application/Application.js
   html:
     - ./fe-dev/amd.html
   css:
@@ -19,29 +19,37 @@ requirejs:
     baseUrl: ./
     dir: ./public/js/amd
     optimize: uglify
-    mainConfigFile: ./fe-dev/js/src/amd/init.js
+#    mainConfigFile: ./fe-dev/js/src/amd/init.js
     # Paths are relative to the `appDir`
     paths:
+      amplify: ../../../bower_components/amplify/lib/amplify.core
       jquery: ../../../bower_components/jquery/dist/jquery
       modernizr: ../../../bower_components/modernizr/modernizr
       text: ../../../bower_components/requirejs-text/text
     modules:
       -
         name: init
+        create: true
+        deps:
+          - main
         include:
-          - jquery
           - modernizr
-#          - modules/application/application
+          - jquery
+          - amplify
+          - main
       -
-        name: modules/application/application
+        name: main
         exclude:
           - jquery
           - modernizr
+          - amplify
+        include:
+          - modules/application/Application
 
 deploy:
   otherFiles:
     js:
       - ./fe-dev/bower_components/requirejs/require.js
     relative:
-      - ./public/js/amd/modules/application/application.js
+      - ./public/js/amd/modules/application/Application.js
       - ./public/js/amd/init.js
