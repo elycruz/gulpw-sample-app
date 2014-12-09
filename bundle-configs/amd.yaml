@@ -15,9 +15,9 @@ files:
 
 requirejs:
   options:
-    appDir: ./fe-dev/js/src/amd
+    appDir: ./fe-dev/js/src/amd/
     baseUrl: ./
-    dir: ./public/js/amd
+    dir: ./public/js/amd/
     optimize: uglify
 #    mainConfigFile: ./fe-dev/js/src/amd/init.js
     # Paths are relative to the `appDir`
@@ -29,7 +29,6 @@ requirejs:
     modules:
       -
         name: init
-        create: true
         deps:
           - main
         include:

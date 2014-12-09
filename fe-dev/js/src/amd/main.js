@@ -16,4 +16,9 @@ define([
 
     app.run();
 
+    console.log('after run', 'hello');
+
 });
+
+
+
