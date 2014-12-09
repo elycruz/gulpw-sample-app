@@ -2,9 +2,9 @@
 init.js
 ----------------
 init.js
-D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/modernizr/modernizr.js
-D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
-D:/Workspace/Github/gulpw-sample-app/fe-dev/bower_components/amplify/lib/amplify.core.js
+C:/Users/edelacruz/Documents/GitHub/gulpw-sample-app/fe-dev/bower_components/modernizr/modernizr.js
+C:/Users/edelacruz/Documents/GitHub/gulpw-sample-app/fe-dev/bower_components/jquery/dist/jquery.js
+C:/Users/edelacruz/Documents/GitHub/gulpw-sample-app/fe-dev/bower_components/amplify/lib/amplify.core.js
 modules/application/Application.js
 main.js
 

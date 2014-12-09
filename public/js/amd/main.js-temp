@@ -1,7 +1,8 @@
+define('modules/application/Application',["jquery","amplify"],function(){function e(){}return e.prototype.run=function(){$("#main-content").html("<h3>Application launched!</h3>"),amplify.publish("APPLICATION:LAUNCHED"),console.log("Application launched")},e});
 /**
  * Created by Ely on 12/7/2014.
  */
-define([
+define('main',[
     'modules/application/Application',
     'amplify'
 ], function (Application) {
@@ -12,6 +13,8 @@ define([
         console.log('from \'main\': "APPLICATION:LAUNCHED" event captured.');
     });
 
+    
+
     console.log('Main Entry Point Initialized.');
 
     app.run();
@@ -19,6 +22,7 @@ define([
     console.log('after run', 'hello');
 
 });
+
 
 
 
