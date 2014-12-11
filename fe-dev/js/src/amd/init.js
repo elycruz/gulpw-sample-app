@@ -4,5 +4,3 @@
 require.config({
     deps: ['main']
 });
-
-
