@@ -1,4 +1,4 @@
-name: global # Dash or underscore separated bundle name
+alias: "global" # Dash or underscore separated bundle alias
 version: "0.0.0" # Semver version string
 description: "Global bundle (should include all vendors)." # description goes here
 
