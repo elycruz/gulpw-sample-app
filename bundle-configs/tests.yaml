@@ -1,0 +1,8 @@
+alias: "tests"
+version: "0.0.0"
+description: "Global tests package."
+
+mocha:
+  testsDir: ./fe-dev/js/src/tests/for-server/**/*
+  options:
+    reporter: spec

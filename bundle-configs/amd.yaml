@@ -19,7 +19,7 @@ requirejs:
     baseUrl: ./
     dir: ./public/js/amd/
     optimize: uglify
-    keepBuildDir: true,
+#    keepBuildDir: true,
 #    mainConfigFile: ./fe-dev/js/src/amd/init.js
     # Paths are relative to the `appDir`
     paths:

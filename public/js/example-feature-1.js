@@ -1,2 +1,2 @@
-/*! Company Name http://www.company-website.com example-feature-1.js 0.0.0 {{file hash here}} */
+/*! Company Name http://www.company-website.com Empty.js 0.0.0 {{file hash here}} */
 $(function(){$("body").append("<h1>Hi, this is example-feature-1's script result.</h1>")}),$(function(){$("body").append('<h4>"example-feature-1/subcomponent1.js" just ran.</h4>')}),App.templates["some-template"]="{{!Some Template Mustache Template }}\r\n<h5>Some Template Template Content</h5>",App.templates["some-template2"]="{{!Some Template 2 Mustache Template }}\r\n<h5>Some Template 2 Template Content</h5>";

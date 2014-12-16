@@ -6,6 +6,10 @@ bundleConfigFormat: yaml
 
 tasks:
 
+  mocha:
+    testsDir:
+    compile: true
+
   concat:
     header: |
       /*!
