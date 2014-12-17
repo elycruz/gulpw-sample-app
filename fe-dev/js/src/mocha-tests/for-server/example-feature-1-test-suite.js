@@ -1,3 +1,3 @@
 describe ('`example-feature-1` test suite', function () {
-    it ('should have more tests written');
+    it ('should have more mocha-tests written');
 });
