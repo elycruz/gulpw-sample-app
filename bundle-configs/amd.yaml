@@ -18,24 +18,35 @@ requirejs:
     appDir: ./fe-dev/js/src/amd/
     baseUrl: ./
     dir: ./public/js/amd/
-    optimize: uglify
+#    optimize: uglify
 #    keepBuildDir: true,
 #    mainConfigFile: ./fe-dev/js/src/amd/init.js
+
     # Paths are relative to the `appDir`
+    shims:
+      amplify:
+        deps:
+          - jquery
+    uglify:
+      no_mangle: true
     paths:
+      lib: lib/
       amplify: ../../../bower_components/amplify/lib/amplify.core
       jquery: ../../../bower_components/jquery/dist/jquery
       modernizr: ../../../bower_components/modernizr/modernizr
       text: ../../../bower_components/requirejs-text/text
+      sjl: ../../../bower_components/sjljs/sjl
     modules:
       -
         name: init
         deps:
           - main
+          - jquery
         include:
           - modernizr
           - jquery
           - amplify
+          - sjl
           - main
       -
         name: main
@@ -44,12 +55,15 @@ requirejs:
           - modernizr
           - amplify
         include:
-          - modules/application/Application
+          - modules/application/ApplicationModule
+          - modules/webgl-experiments/WebGlExperimentsModule
 
 deploy:
   otherFiles:
-    js:
-      - ./fe-dev/bower_components/requirejs/require.js
     relative:
-      - ./public/js/amd/modules/application/Application.js
+      - ./public/js/vendors/require.js
       - ./public/js/amd/init.js
+
+copy:
+  files:
+    ./fe-dev/bower_components/requirejs/require.js: ./public/js/vendors/require.js

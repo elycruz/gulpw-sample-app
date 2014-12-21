@@ -1,0 +1,1 @@
+define(["lib/mvc/module/Module","jquery","amplify"],function(Module){var Constructor=sjl.Extendable.extend(function Application(){},{run:function(){$("#main-content").html("<h3>Application launched!</h3>"),amplify.publish("app:start"),console.log("Application launched")}});return new Constructor});

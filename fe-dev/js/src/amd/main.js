@@ -2,24 +2,12 @@
  * Created by Ely on 12/7/2014.
  */
 define([
-    'modules/application/Application',
+    'modules/application/ApplicationModule',
+    'modules/webgl-experiments/WebGlExperimentsModule',
     'amplify'
-], function (Application) {
-
-    var app = new Application();
-
-    amplify.subscribe('APPLICATION:LAUNCHED', function () {
-        console.log('from \'main\': "APPLICATION:LAUNCHED" event captured.');
-    });
-
-    console.log('Main Entry Point Initialized.');
+], function (app, webglExp) {
 
     app.run();
 
-    console.log('after run', 'hello');
-
 });
-
-
-
 
