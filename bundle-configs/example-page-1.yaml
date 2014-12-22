@@ -24,3 +24,6 @@ files:
     - ./fe-dev/html-fragments/doc-middle.html
     - ./fe-dev/html-fragments/example-page-1/index.html
     - ./fe-dev/html-fragments/doc-bottom.html
+  mustache:
+    - ./fe-dev/templates/mustache/example-feature-2/some-template2.0.mustache
+    - ./fe-dev/templates/mustache/example-feature-2/some-template2.2.mustache

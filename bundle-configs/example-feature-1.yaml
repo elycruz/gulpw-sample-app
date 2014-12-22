@@ -14,3 +14,7 @@ files:
   mustache:
     - ./fe-dev/templates/mustache/example-feature-1/some-template.mustache
     - ./fe-dev/templates/mustache/example-feature-1/some-template2.mustache
+
+mocha:
+  files:
+    - ./fe-dev/js/src/mocha-tests/for-server/example-feature-1-test-suite.js

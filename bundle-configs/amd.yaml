@@ -67,3 +67,4 @@ deploy:
 copy:
   files:
     ./fe-dev/bower_components/requirejs/require.js: ./public/js/vendors/require.js
+

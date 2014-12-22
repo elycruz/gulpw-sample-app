@@ -28,9 +28,9 @@ tasks:
     jsBuildPath: ./public/js/
     htmlBuildPath: ./public/
     template:
-      templatesParentVar: App
-      templatesKey: templates
-      removeWhitespace: true
+      templatePartial: |
+        App.setTemplate('<%= fileBasename %>', '<%= fileContent %>');
+      compressWhitespace: true
       templateTypeKeys:
         - mustache
         - handlebars
@@ -68,17 +68,17 @@ tasks:
 
         # Servers where user can develop for host key (in this case host key is `gulpw.elycruz.com`)
         devHostnames: # slots
-          - devslot1.gulpw-sample.elycruz.com
-          - devslot2.gulpw-sample.elycruz.com
-          - devslot3.gulpw-sample.elycruz.com
+          - -devslot1.gulpw-sample.elycruz.com
+          - -devslot2.gulpw-sample.elycruz.com
+          - -devslot3.gulpw-sample.elycruz.com
 
         # all sites represent the same website just different instances of the website
         devHostnamePrefixes: # instances
-          - web1-
-          - web2-
-          - web3-
+          - web1
+          - web2
+          - web3
 
-        deployRootFolder: sites/web1-devslot1.gulpw-sample.elycruz.com/
+        deployRootFolder: sites/<%= devHostnamePrefix %><%= devHostname %> # web1-devslot1.gulpw-sample.elycruz.com/
 
         # directories for deploying file types to the website instance chosen
         typesAndDeployPathsMap: # dir

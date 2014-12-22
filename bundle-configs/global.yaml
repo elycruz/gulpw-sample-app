@@ -4,6 +4,7 @@ description: "Global bundle (should include all vendors)." # description goes he
 
 files:
   js:
+    - ./fe-dev/bower_components/sjljs/sjl.js
     - ./fe-dev/js/src/global/index.js
     - ./fe-dev/js/src/global/console-shim.js
     - ./fe-dev/bower_components/jquery/dist/jquery.js
