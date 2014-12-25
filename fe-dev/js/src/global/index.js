@@ -1,6 +1,8 @@
 /**
  * Created by edelacruz on 12/5/2014.
  */
+'use strict';
+
 var App = {};
 
 // Template function setup
@@ -15,8 +17,8 @@ var App = {};
         }
         else {
             errMessage = 'Could not set template\'s key for key "' + key + '" and value "' + value + '"';
-            throw new Error(errMessage);
             console.warn(errMessage);
+            throw new Error(errMessage);
         }
     };
 

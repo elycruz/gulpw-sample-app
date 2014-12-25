@@ -1,6 +1,9 @@
 /**
  * Created by edelacruz on 11/19/2014.
  */
+
+'use strict';
+
 // Avoid `console` errors in browsers that lack a console.
 (function() {
     var method;
@@ -14,12 +17,13 @@
     var length = methods.length;
     var console = (window.console = window.console || {});
 
-    while (length--) {
+    while (length) {
         method = methods[length];
 
         // Only stub undefined methods.
         if (!console[method]) {
             console[method] = noop;
         }
+        length -= 1;
     }
 }());

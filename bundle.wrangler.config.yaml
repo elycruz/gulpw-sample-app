@@ -37,6 +37,8 @@ tasks:
         - ejs
 
   jshint:
+    jshintrc: ./.jshintrc
+    overwriteDefault: true
     ignoredFiles:
       - jquery.js
       - require.js
@@ -89,3 +91,5 @@ tasks:
           js: public/js/
           css: public/css/
           md: public/
+  csslint:
+      csslintrc: ./fe-dev/.csslintrc

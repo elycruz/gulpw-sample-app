@@ -60,8 +60,8 @@ define(['sjl'], function () {
 
                 try {
                     // Try to grab the standard context. If it fails, fallback to experimental.
-                    gl = canvasElm.getContext("webgl")
-                        || canvasElm.getContext("experimental-webgl");
+                    gl = canvasElm.getContext('webgl')
+                        || canvasElm.getContext('experimental-webgl');
                 }
                 catch (e) {
                     throw new Error(failureMessage);
