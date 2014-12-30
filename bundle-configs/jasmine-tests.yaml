@@ -3,4 +3,4 @@ version: "0.0.0"
 description: "Global mocha-tests package."
 
 jasmine:
-  testsDir: ./fe-dev/js/src/jasmine-tests/for-server/**/*
+  files: ./fe-dev/js/src/jasmine-tests/for-server/**/*
