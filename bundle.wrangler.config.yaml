@@ -53,9 +53,6 @@ tasks:
     # Files to be deployed (merged with bundle level definition;  e.g., bundleFile.deploy.files)
     otherFiles: []
 
-    # Global deploy artifacts flag (used if no `deployArtifact` field is found for a section in this config
-    deployArtifacts:   true
-
     # Should files be linted before deploy
     lintBeforeDeploy: false
 
