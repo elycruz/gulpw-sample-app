@@ -20,4 +20,4 @@ deploy:
       - ./public/index.html
       - ./public/example-page-1.html
     md:
-      - ./fe-dev/README.md
+      - ./fe-dev/readme.md
