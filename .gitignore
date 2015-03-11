@@ -1,7 +1,7 @@
 .idea
 .gulpw
-**/node_modules
 **/bower_components
+**/bundle-wrangler-configs
+**/node_modules
 **/.sass-cache
 npm-debug.log
-bundle-wrangler-configs/**/*
