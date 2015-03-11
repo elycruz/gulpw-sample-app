@@ -1,7 +1,5 @@
 bundlesPath: ./bundle-configs
 
-scriptRenderer: ejs
-
 bundleConfigFormat: yaml
 
 tasks:
