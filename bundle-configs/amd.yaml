@@ -3,10 +3,8 @@ version: "0.0.0" # Semver version string
 description: "Example feature 1 bundle." # description goes here
 
 files:
-#  js:
-#    - ./fe-dev/bower_components/requirejs/require.js
-#    - ./public/js/amd/init.js
-#    - ./public/js/amd/modules/application/Application.js
+  js:
+    - ./public/js/amd/init.js
   html:
     - ./fe-dev/amd.html
   css:
@@ -38,7 +36,7 @@ requirejs:
       sjl: ../../../bower_components/sjljs/sjl
     modules:
       -
-        name: init
+        name: amd
         deps:
           - main
           - jquery
@@ -62,7 +60,6 @@ deploy:
   otherFiles:
     relative:
       - ./public/js/vendors/require.js
-      - ./public/js/amd/init.js
 
 copy:
   files:

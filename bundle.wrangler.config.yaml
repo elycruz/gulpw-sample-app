@@ -32,6 +32,7 @@ tasks:
       templateTypeKeys:
         - mustache
         - handlebars
+        # @todo remove ejs templates
         - ejs
 
   jshint:
