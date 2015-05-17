@@ -6,7 +6,7 @@ files:
   js:
     - ./fe-dev/js/src/example-feature-1/index.js
     - ./fe-dev/js/src/example-feature-1/subcomponent1.js
-    - ./fe-dev/js/src/example-feature-1/sub-component2.js
+    - ./fe-dev/js/src/example-feature-1/subcomponent2.js
   css:
     - ./fe-dev/css/example-feature-1/cssfile1.css
     - ./fe-dev/css/example-feature-1/cssfile2.css

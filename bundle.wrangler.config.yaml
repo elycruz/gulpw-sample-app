@@ -21,6 +21,11 @@ tasks:
         - handlebars
         - ejs
 
+  eslint:
+    options:
+      envs:
+        - browser
+
   jshint:
     jshintrc: ./.jshintrc
     ignoredFiles:
