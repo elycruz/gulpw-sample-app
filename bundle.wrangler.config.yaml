@@ -41,4 +41,4 @@ tasks:
     lintBeforeBuild: true
 
   # Deploy Task
-  deploy: ./bundle-wrangler-configs/deploy-config.yaml
+  deploy: ./bundle-wrangler-configs/deploy-config.js
