@@ -23,7 +23,7 @@ tasks:
 
   eslint:
     options:
-      envs:
+      env:
         - browser
 
   jshint:
