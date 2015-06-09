@@ -4,17 +4,11 @@ description: "Example page bundle." # description goes here
 
 files:
   js:
-    - ./fe-dev/js/src/example-feature-1/index.js
-    - ./fe-dev/js/src/example-feature-1/subcomponent1.js
-    - ./fe-dev/js/src/example-feature-1/sub-component2.js
-    - ./fe-dev/js/src/example-feature-2/index.js
+    - ./public/js/example-feature-1.js
+    - ./public/js/example-feature-2.js
   css:
-    - ./fe-dev/css/example-feature-1/cssfile1.css
-    - ./fe-dev/css/example-feature-1/cssfile2.css
-    - ./fe-dev/css/example-feature-1/cssfile3.css
-    - ./fe-dev/css/example-feature-2/component1.css
-    - ./fe-dev/css/example-feature-2/component2.css
-    - ./fe-dev/css/example-feature-2/component3.css
+    - ./public/css/example-feature-1.css
+    - ./public/css/example-feature-2.css
   html:
     - ./fe-dev/html-fragments/doc-top.html
     - ./fe-dev/html-fragments/head-meta.html
@@ -24,6 +18,8 @@ files:
     - ./fe-dev/html-fragments/doc-middle.html
     - ./fe-dev/html-fragments/example-page-1/index.html
     - ./fe-dev/html-fragments/doc-bottom.html
-  mustache:
-    - ./fe-dev/templates/mustache/example-feature-2/some-template2.0.mustache
-    - ./fe-dev/templates/mustache/example-feature-2/some-template2.2.mustache
+
+relatedBundles:
+  processBefore:
+    - example-feature-1
+    - example-feature-2

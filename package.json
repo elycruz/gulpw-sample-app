@@ -1,6 +1,6 @@
 {
   "name": "gulpw-sample-app",
-  "version": "0.1.61",
+  "version": "0.1.70",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
