@@ -1,3 +1,0 @@
-alias: compass
-compass:
-  configrb: ./fe-dev/config.rb # config.rb home

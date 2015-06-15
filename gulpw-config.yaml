@@ -4,6 +4,9 @@ bundleConfigFormat: yaml
 
 tasks:
 
+  compass:
+    configrb: ./fe-dev/config.rb
+
   mocha:
     testsDir: null
     compile: true
