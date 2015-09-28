@@ -3,7 +3,6 @@
   "version": "0.1.71",
   "main": "gulpfile.js",
   "scripts": {
-    "postinstall": "cd ./fe-dev && bower install --allow-root",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
