@@ -1,4 +1,4 @@
-bundlesPath: ./bundle-configs
+bundlesPath: ./gulpw-bundle-configs
 
 bundleConfigFormat: yaml
 
